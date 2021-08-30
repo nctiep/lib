@@ -10,6 +10,7 @@
     "require": {
         "php": ">=7.3"
     },
+    "license": "mit",
     "autoload": {
         "psr-4": {
             "Nctiep\\Lib\\": "src/"
