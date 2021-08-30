@@ -1,6 +1,13 @@
 {
     "name": "nctiep/lib",
-    "description": "nctiep Library",
+    "description": "nctiep library",
+    "type": "package",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Nctiep\\Lib\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "nctiep",
@@ -8,12 +15,6 @@
         }
     ],
     "require": {
-        "php": ">=7.3"
-    },
-    "license": "mit",
-    "autoload": {
-        "psr-4": {
-            "Nctiep\\Lib\\": "src/"
-        }
+        "php": ">=7.3.0"
     }
 }
